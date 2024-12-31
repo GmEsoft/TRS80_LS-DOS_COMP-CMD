@@ -1,0 +1,25 @@
+@KEYIN1         EQU     0040H
+M3FLAG$         EQU     0125H   ; 'I' in ROM on Model III
+VDOSEXIT0       EQU     402DH
+VDOSERREXIT0    EQU     4030H
+HIGH$1          EQU     4049H
+@ICNFG3         EQU     421DH
+@LOGOT3         EQU     428AH
+@ICNFG1         EQU     4303H
+VDOSERREXIT     EQU     4409H
+HIGH$3          EQU     4411H
+VDOSGETFSPEC    EQU     441CH
+M441F           EQU     441FH
+VFILEOPEN       EQU     4420H
+VFILEOPENEXIST  EQU     4424H
+M4427           EQU     4427H
+VFILECLOSE      EQU     4428H
+VRECORDREAD     EQU     4436H
+VRECORDWRITE    EQU     4439H
+@MULT3          EQU     444EH
+@DSPLY1         EQU     4467H
+@LOGOT1         EQU     447BH
+CFLAG$1         EQU     4758H
+@DIVEA3         EQU     4B7AH
+@DIVEA1         EQU     4B7BH
+@MULT1          EQU     4B8FH
